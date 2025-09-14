@@ -10,8 +10,16 @@ function checkPi() {
 }
 
 
-setTimeout(() => {
+/*setTimeout(() => {
     const p = document.createElement("p");
     p.innerText = "Trying javascript as well!";
     document.body.appendChild(p);
-  }, 2000);
+  }, 2000);*/
+
+setTimeout(() => {
+    const result = document.getElementById("result");
+    result.innerText = "Yay pi!";
+}, 2000);
+
+
+  
