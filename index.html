@@ -13,5 +13,10 @@
     <div class ="flex-container">
       <img height="360px" width ="640px" src="images/maxresdefault.jpg">
     </div>
+    <p>What are the first 3 digits of pi?</p>
+    <form action="/action_page.php" method="post">
+      <input type="text" id="pi_digits" name="pi_digits" maxlength="3" required value="<?php echo htmlspecialchars($input); ?>"/>
+      <input type="submit" value="Submit">
+    </form> 
   </body>
 </html>
